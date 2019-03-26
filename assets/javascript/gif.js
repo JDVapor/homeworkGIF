@@ -13,13 +13,13 @@ const addButton = () => {
 }
 
 $("#add-gif").on("click", function(event) {
-  event.preventDefault();
+    event.preventDefault();
 
-  var gif = $("#userInput").val().trim();
-  gifs.push(gif);
+    var gif = $("#userInput").val().trim();
+    gifs.push(gif);
 
-  addButton();
-});
+    addButton();
+  });
 
 addButton();
 

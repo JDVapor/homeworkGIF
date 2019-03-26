@@ -1,0 +1,32 @@
+body {
+  background-image: url("../images/background.jpg");
+  font-family: 'Play', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  color: darkgreen;
+  margin:20px;
+  padding-bottom: 10px;
+}
+button {
+background-color: teal;
+color: white;
+margin: 5px;
+margin-bottom: 20px;
+}
+
+form {
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+#add-gif {
+  color: white;
+  background-color: hotpink;
+}
